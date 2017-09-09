@@ -67,7 +67,8 @@ class FoodViewHolder extends RecyclerView.ViewHolder implements View.OnClickList
         mStatus = (TextView)itemView.findViewById(R.id.container);
         mStatusColor = (FrameLayout) itemView.findViewById(R.id.status_container);
 
-        
+
+
         mDate = (TextView) itemView.findViewById(R.id.date);
         mDateContainer = (FrameLayout) itemView.findViewById(R.id.date_container);
 
