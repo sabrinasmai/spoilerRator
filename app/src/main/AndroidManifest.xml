@@ -30,7 +30,7 @@
 
         <uses-library android:name="com.google.android.things" />
 
-        <activity android:name=".MainActivity">
+            <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,6 +45,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
